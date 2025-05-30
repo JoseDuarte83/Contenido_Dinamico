@@ -22,3 +22,5 @@ crearElementoBtn.addEventListener('click', function(){
     contenedor.appendChild(nuevoParrafo);
     console.log('Párrafo añadido dinámicamente');
 });
+
+cambiarEstiloBtn.addEventListener('click', ()=>{})
