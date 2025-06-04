@@ -23,4 +23,10 @@ crearElementoBtn.addEventListener('click', function(){
     console.log('Párrafo añadido dinámicamente');
 });
 
-cambiarEstiloBtn.addEventListener('click', ()=>{})
+cambiarEstiloBtn.addEventListener('click', ()=>{
+    const parrafos = contenedor.querySelectorAll('p');
+    parrafos.forEach(parrafo => {
+    parrafo.style.color = 'green';
+    nuevoParrafo.style.fontWeight = 'bold';
+    })
+})
